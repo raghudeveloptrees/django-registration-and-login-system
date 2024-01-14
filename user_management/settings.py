@@ -31,7 +31,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://loginreg.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['https://loginreg.azurewebsites.net']  # change according to ur domain name
 
 
 # Application definition
